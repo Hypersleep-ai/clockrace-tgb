@@ -40,7 +40,8 @@ interaction is admitted.
 - **Node affinity (tgbn-trade, tgbn-genre, tgbn-reddit, tgbn-token).** For each source, affinities to every destination
   class at several elapsed-time decay scales, formed from completed periods or from streaming rows brought to the
   query time when read, with previous-period vectors, global class shares and growth. On genre and reddit the decay
-  scales also count interactions, and a per-source race over the bank of decay scales chooses among them. The weights
+  scales also count interactions, and a learned per-source softmax over the bank of decay scales mixes them, every scale
+  contributing. The weights
   are trained on the training split only and stay fixed during validation and test.
 - **Link prediction (tgbl-wiki-v2, tgbl-review-v2, tgbl-flight-v2, tgbl-coin-v2, thgl-github, thgl-myket, thgl-forum).**
   Persistent pair records addressed by a source and a destination (and by the relation type on thgl-*), with source and
