@@ -1,0 +1,5 @@
+src/.cache/
+src/data/
+__pycache__/
+src/experiments/results/tgb/*
+!src/experiments/results/tgb/.keep

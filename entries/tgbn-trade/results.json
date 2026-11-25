@@ -1,0 +1,41 @@
+{
+ "dataset": "tgbn-trade",
+ "metric": "NDCG@10",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.8747168674499711,
+   "test": 0.8682526403496212
+  },
+  {
+   "seed": 1,
+   "validation": 0.874013834526376,
+   "test": 0.8673673755841073
+  },
+  {
+   "seed": 2,
+   "validation": 0.8745490101527011,
+   "test": 0.8683303945220215
+  },
+  {
+   "seed": 3,
+   "validation": 0.874548463840915,
+   "test": 0.8708152087710195
+  },
+  {
+   "seed": 4,
+   "validation": 0.8750881230758378,
+   "test": 0.8686271095275772
+  }
+ ],
+ "validation_mean": 0.8745832598091602,
+ "validation_sd": 0.00038709393910618494,
+ "test_mean": 0.8686785457508693,
+ "test_sd": 0.001283525072009806,
+ "parameters": 2107,
+ "best_published_test": {
+  "method": "NAViS",
+  "score": "0.863",
+  "read": "2026-11-24"
+ }
+}

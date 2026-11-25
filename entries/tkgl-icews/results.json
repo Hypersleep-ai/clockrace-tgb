@@ -1,0 +1,41 @@
+{
+ "dataset": "tkgl-icews",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.3471960288471051,
+   "test": 0.34540962524136914
+  },
+  {
+   "seed": 1,
+   "validation": 0.34697952243823577,
+   "test": 0.34572139932782264
+  },
+  {
+   "seed": 2,
+   "validation": 0.3469710447572156,
+   "test": 0.34466957794359476
+  },
+  {
+   "seed": 3,
+   "validation": 0.3468860027792667,
+   "test": 0.34495342125596506
+  },
+  {
+   "seed": 4,
+   "validation": 0.3469862400525568,
+   "test": 0.34541617107267913
+  }
+ ],
+ "validation_mean": 0.34700376777487596,
+ "validation_sd": 0.00011488991183829872,
+ "test_mean": 0.34523403896828614,
+ "test_sd": 0.0004179968037130496,
+ "parameters": 34438,
+ "best_published_test": {
+  "method": "CountTRuCoLa",
+  "score": "0.214 \u00b1 0.001",
+  "read": "2026-11-24"
+ }
+}

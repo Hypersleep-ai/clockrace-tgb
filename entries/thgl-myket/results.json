@@ -1,0 +1,41 @@
+{
+ "dataset": "thgl-myket",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.9164649740973821,
+   "test": 0.9145262187979248
+  },
+  {
+   "seed": 1,
+   "validation": 0.9166610198742775,
+   "test": 0.9161149368811896
+  },
+  {
+   "seed": 2,
+   "validation": 0.9166416145284814,
+   "test": 0.9157807008757793
+  },
+  {
+   "seed": 3,
+   "validation": 0.9165735499410322,
+   "test": 0.9161003530634667
+  },
+  {
+   "seed": 4,
+   "validation": 0.9166145187051725,
+   "test": 0.9164409366491769
+  }
+ ],
+ "validation_mean": 0.9165911354292692,
+ "validation_sd": 7.77892726592311e-05,
+ "test_mean": 0.9157926292535075,
+ "test_sd": 0.0007454556253664357,
+ "parameters": 7061,
+ "best_published_test": {
+  "method": "EdgeBank(unlimited)",
+  "score": "0.456",
+  "read": "2026-11-24"
+ }
+}

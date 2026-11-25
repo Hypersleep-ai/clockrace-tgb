@@ -1,0 +1,41 @@
+{
+ "dataset": "tgbl-review-v2",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.48802064952495844,
+   "test": 0.5392930139635
+  },
+  {
+   "seed": 1,
+   "validation": 0.4885889312171922,
+   "test": 0.5404769766288026
+  },
+  {
+   "seed": 2,
+   "validation": 0.4877015853070646,
+   "test": 0.5387048127872059
+  },
+  {
+   "seed": 3,
+   "validation": 0.4882379664951103,
+   "test": 0.5399645683882557
+  },
+  {
+   "seed": 4,
+   "validation": 0.4887223003265879,
+   "test": 0.5407502044582961
+  }
+ ],
+ "validation_mean": 0.4882542865741827,
+ "validation_sd": 0.00041573886514268034,
+ "test_mean": 0.5398379152452121,
+ "test_sd": 0.0008422515458727125,
+ "parameters": 11642367,
+ "best_published_test": {
+  "method": "GraphMixer",
+  "score": "0.521 \u00b1 0.015",
+  "read": "2026-11-24"
+ }
+}

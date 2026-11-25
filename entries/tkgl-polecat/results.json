@@ -1,0 +1,41 @@
+{
+ "dataset": "tkgl-polecat",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.26350567365600164,
+   "test": 0.2583569129371795
+  },
+  {
+   "seed": 1,
+   "validation": 0.26322203691250795,
+   "test": 0.25806904713902185
+  },
+  {
+   "seed": 2,
+   "validation": 0.26320037784902117,
+   "test": 0.25793342844933564
+  },
+  {
+   "seed": 3,
+   "validation": 0.2631730742252516,
+   "test": 0.25795711286412376
+  },
+  {
+   "seed": 4,
+   "validation": 0.26340614692285524,
+   "test": 0.25812769154422754
+  }
+ ],
+ "validation_mean": 0.26330146191312753,
+ "validation_sd": 0.000146348133168122,
+ "test_mean": 0.25808883858677767,
+ "test_sd": 0.0001697565078860583,
+ "parameters": 29081,
+ "best_published_test": {
+  "method": "CountTRuCoLa",
+  "score": "0.256 \u00b1 0.001",
+  "read": "2026-11-24"
+ }
+}

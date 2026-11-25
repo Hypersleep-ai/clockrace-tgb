@@ -1,0 +1,41 @@
+{
+ "dataset": "tgbn-token",
+ "metric": "NDCG@10",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.5021513267549529,
+   "test": 0.5156379262330782
+  },
+  {
+   "seed": 1,
+   "validation": 0.5019063998131873,
+   "test": 0.5152554226945907
+  },
+  {
+   "seed": 2,
+   "validation": 0.5028792434012185,
+   "test": 0.5162069020114142
+  },
+  {
+   "seed": 3,
+   "validation": 0.5021420335502259,
+   "test": 0.5162060819764162
+  },
+  {
+   "seed": 4,
+   "validation": 0.5018506940254721,
+   "test": 0.5148644994553759
+  }
+ ],
+ "validation_mean": 0.5021859395090114,
+ "validation_sd": 0.00041058739589909364,
+ "test_mean": 0.515634166474175,
+ "test_sd": 0.0005896951847158535,
+ "parameters": 2039,
+ "best_published_test": {
+  "method": "NAViS",
+  "score": "0.513",
+  "read": "2026-11-24"
+ }
+}

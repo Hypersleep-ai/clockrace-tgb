@@ -1,0 +1,14 @@
+# Installed into src/.cache/pylib_tgb with: python -m pip install --target src/.cache/pylib_tgb -r requirements-tgb.txt
+# (the drivers put src/.cache/pylib_tgb first on sys.path; versions of the recorded runs)
+py-tgb==2.3.0
+pandas==3.0.6
+requests==2.34.2
+tqdm==4.70.1
+clint==0.5.1
+args==0.1.0
+python-dateutil==2.9.0.post0
+six==1.17.0
+certifi==2026.10.18
+charset-normalizer==3.5.2
+idna==3.20
+urllib3==2.8.0

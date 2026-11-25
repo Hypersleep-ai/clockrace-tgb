@@ -1,0 +1,4 @@
+# Python environment of the sealed runs on hosts A and C (host B's was not recorded); tkgl-wikidata needs a CUDA build of PyTorch
+# python 3.14.4
+torch==2.15.0
+numpy==2.5.4

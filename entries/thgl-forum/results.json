@@ -1,0 +1,41 @@
+{
+ "dataset": "thgl-forum",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.8170871551896944,
+   "test": 0.8164231685855892
+  },
+  {
+   "seed": 1,
+   "validation": 0.8165564317813543,
+   "test": 0.8161186968576951
+  },
+  {
+   "seed": 2,
+   "validation": 0.8164359158961764,
+   "test": 0.816065104300168
+  },
+  {
+   "seed": 3,
+   "validation": 0.8168146869205725,
+   "test": 0.816383203626978
+  },
+  {
+   "seed": 4,
+   "validation": 0.8165075447971573,
+   "test": 0.8160686990607384
+  }
+ ],
+ "validation_mean": 0.816680346916991,
+ "validation_sd": 0.00026856203412694256,
+ "test_mean": 0.8162117744862337,
+ "test_sd": 0.00017657971382226988,
+ "parameters": 8051,
+ "best_published_test": {
+  "method": "TGN(edge type)",
+  "score": "0.729 \u00b1 0.009",
+  "read": "2026-11-24"
+ }
+}

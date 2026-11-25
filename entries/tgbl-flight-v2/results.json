@@ -1,0 +1,41 @@
+{
+ "dataset": "tgbl-flight-v2",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.9147641132225167,
+   "test": 0.9085960195969957
+  },
+  {
+   "seed": 1,
+   "validation": 0.9146165152469083,
+   "test": 0.9082988670370639
+  },
+  {
+   "seed": 2,
+   "validation": 0.9148055122891477,
+   "test": 0.9086551930061031
+  },
+  {
+   "seed": 3,
+   "validation": 0.914749140803596,
+   "test": 0.9087258801408759
+  },
+  {
+   "seed": 4,
+   "validation": 0.914577570322156,
+   "test": 0.9084534849034213
+  }
+ ],
+ "validation_mean": 0.914702570376865,
+ "validation_sd": 9.947846861300349e-05,
+ "test_mean": 0.9085458889368919,
+ "test_sd": 0.00017059866685913158,
+ "parameters": 6929,
+ "best_published_test": {
+  "method": "TPNet",
+  "score": "0.884 \u00b1 0.001",
+  "read": "2026-11-24"
+ }
+}

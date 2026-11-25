@@ -1,0 +1,41 @@
+{
+ "dataset": "tgbn-reddit",
+ "metric": "NDCG@10",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.6010157643521691,
+   "test": 0.5869283555280892
+  },
+  {
+   "seed": 1,
+   "validation": 0.600783914114436,
+   "test": 0.586766532663696
+  },
+  {
+   "seed": 2,
+   "validation": 0.6008466198477941,
+   "test": 0.5867444499815972
+  },
+  {
+   "seed": 3,
+   "validation": 0.60103042729713,
+   "test": 0.5869831542308125
+  },
+  {
+   "seed": 4,
+   "validation": 0.6005479107785379,
+   "test": 0.5865904950715626
+  }
+ ],
+ "validation_mean": 0.6008449272780134,
+ "validation_sd": 0.0001971926943887672,
+ "test_mean": 0.5868025974951515,
+ "test_sd": 0.00015659267314729024,
+ "parameters": 2360,
+ "best_published_test": {
+  "method": "NAViS",
+  "score": "0.569",
+  "read": "2026-11-24"
+ }
+}

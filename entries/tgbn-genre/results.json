@@ -1,0 +1,41 @@
+{
+ "dataset": "tgbn-genre",
+ "metric": "NDCG@10",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.5385130803707747,
+   "test": 0.5467318506756502
+  },
+  {
+   "seed": 1,
+   "validation": 0.5388018262094106,
+   "test": 0.5462198178927721
+  },
+  {
+   "seed": 2,
+   "validation": 0.5386881437828632,
+   "test": 0.5466459272245617
+  },
+  {
+   "seed": 3,
+   "validation": 0.5387219113238323,
+   "test": 0.54641595548615
+  },
+  {
+   "seed": 4,
+   "validation": 0.5390121721809548,
+   "test": 0.5466888130904788
+  }
+ ],
+ "validation_mean": 0.5387474267735671,
+ "validation_sd": 0.0001817506375619131,
+ "test_mean": 0.5465404728739226,
+ "test_sd": 0.00021683813070186696,
+ "parameters": 2360,
+ "best_published_test": {
+  "method": "NAViS",
+  "score": "0.528",
+  "read": "2026-11-24"
+ }
+}

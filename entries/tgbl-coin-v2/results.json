@@ -1,0 +1,41 @@
+{
+ "dataset": "tgbl-coin-v2",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.8537187631935184,
+   "test": 0.8693590802736753
+  },
+  {
+   "seed": 1,
+   "validation": 0.853576741922476,
+   "test": 0.8690435058390864
+  },
+  {
+   "seed": 2,
+   "validation": 0.8538402379955807,
+   "test": 0.8697728835823509
+  },
+  {
+   "seed": 3,
+   "validation": 0.8533259270036645,
+   "test": 0.868910184728729
+  },
+  {
+   "seed": 4,
+   "validation": 0.8533582225669515,
+   "test": 0.868170780632218
+  }
+ ],
+ "validation_mean": 0.8535639785364382,
+ "validation_sd": 0.00022329606696694392,
+ "test_mean": 0.8690512870112119,
+ "test_sd": 0.0005938645022452444,
+ "parameters": 12737,
+ "best_published_test": {
+  "method": "TPNet",
+  "score": "0.832 \u00b1 0.001",
+  "read": "2026-11-24"
+ }
+}

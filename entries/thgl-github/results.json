@@ -1,0 +1,41 @@
+{
+ "dataset": "thgl-github",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.755813252455438,
+   "test": 0.8472086961435004
+  },
+  {
+   "seed": 1,
+   "validation": 0.7562429184722788,
+   "test": 0.8475072075735787
+  },
+  {
+   "seed": 2,
+   "validation": 0.75547233709628,
+   "test": 0.8457841778434415
+  },
+  {
+   "seed": 3,
+   "validation": 0.7558722729823121,
+   "test": 0.8460929209853487
+  },
+  {
+   "seed": 4,
+   "validation": 0.7555388198543455,
+   "test": 0.8463888740022034
+  }
+ ],
+ "validation_mean": 0.7557879201721308,
+ "validation_sd": 0.00030676710236951494,
+ "test_mean": 0.8465963753096145,
+ "test_sd": 0.0007349727869019746,
+ "parameters": 7157,
+ "best_published_test": {
+  "method": "EdgeBank(unlimited)",
+  "score": "0.413",
+  "read": "2026-11-24"
+ }
+}

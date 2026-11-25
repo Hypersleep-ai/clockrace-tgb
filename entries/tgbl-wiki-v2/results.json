@@ -1,0 +1,41 @@
+{
+ "dataset": "tgbl-wiki-v2",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.8518229016892851,
+   "test": 0.8352538397086952
+  },
+  {
+   "seed": 1,
+   "validation": 0.8518538838165832,
+   "test": 0.8350057201371809
+  },
+  {
+   "seed": 2,
+   "validation": 0.8517093248793436,
+   "test": 0.8356125467494251
+  },
+  {
+   "seed": 3,
+   "validation": 0.8519171624985413,
+   "test": 0.8353669765762738
+  },
+  {
+   "seed": 4,
+   "validation": 0.8517102091207602,
+   "test": 0.8351666343756718
+  }
+ ],
+ "validation_mean": 0.8518026964009027,
+ "validation_sd": 9.138248018315242e-05,
+ "test_mean": 0.8352811435094494,
+ "test_sd": 0.0002274375167341235,
+ "parameters": 7995,
+ "best_published_test": {
+  "method": "TRACE (per-timestamp)",
+  "score": "0.833 \u00b1 0.001",
+  "read": "2026-11-24"
+ }
+}

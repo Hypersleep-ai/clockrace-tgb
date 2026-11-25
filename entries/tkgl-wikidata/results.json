@@ -1,0 +1,41 @@
+{
+ "dataset": "tkgl-wikidata",
+ "metric": "MRR",
+ "seeds": [
+  {
+   "seed": 0,
+   "validation": 0.7405815852214763,
+   "test": 0.670300055494412
+  },
+  {
+   "seed": 1,
+   "validation": 0.7409226754479311,
+   "test": 0.6707893707523218
+  },
+  {
+   "seed": 2,
+   "validation": 0.7409244275840351,
+   "test": 0.670538571760568
+  },
+  {
+   "seed": 3,
+   "validation": 0.7408417231239944,
+   "test": 0.6708049262183727
+  },
+  {
+   "seed": 4,
+   "validation": 0.740862219706831,
+   "test": 0.6708697061927043
+  }
+ ],
+ "validation_mean": 0.7408265262168536,
+ "validation_sd": 0.00014171310345432523,
+ "test_mean": 0.6706605260836758,
+ "test_sd": 0.0002377081026180301,
+ "parameters": 81178,
+ "best_published_test": {
+  "method": "CountTRuCoLa",
+  "score": "0.609 \u00b1 0.001",
+  "read": "2026-11-24"
+ }
+}
